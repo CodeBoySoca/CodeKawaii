@@ -5,7 +5,31 @@
         <h2>Documentation</h2>
         <p>
             Hey, thanks for visiting us. Before you can use the API you will need to register for an 
-            account. You can do that <a href="{{ url_for('register')}}">here</a></p>
+            account. You can do that <a href="{{ url_for('register')}}">here</a>. If you already have an account
+            or have completed registration and you are logged in you can follow the docs below to get kawaii characters via 
+            our API.
+        </p>
+        <div class="api">
+            <div class="details">
+                <h3>Random character</h3>
+                <p>Get a random kawaii character<p>
+                <code></code>
+            </div>
+        </div>
+        <div class="api">
+            <div class="details">
+                <h3>Latest Character</h3>
+                <p>Get the latest kawaii character created<p>
+                <code></code>
+            </div>
+        </div>
+        <div class="api">
+            <div class="details">
+                <h3>Get Character by type</h3>
+                <p>Get a certain type of kawaii character(ex. A dog, girl, boy)<p>
+                <code></code>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}
