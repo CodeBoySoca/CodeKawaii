@@ -1,0 +1,11 @@
+{% extends 'base.j2' %}
+{% block content %}
+<div class="container">
+    <div class="docs">
+        <h2>Documentation</h2>
+        <p>
+            Hey, thanks for visiting us. Before you can use the API you will need to register for an 
+            account. You can do that <a href="{{ url_for('register')}}">here</a></p>
+    </div>
+</div>
+{% endblock %}

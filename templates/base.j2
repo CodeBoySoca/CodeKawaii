@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CodeKawaii</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css')}}">
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        <script src="{{ url_for('static', filename='js/app.js')}}"></script>
+    </body>
+</html>
