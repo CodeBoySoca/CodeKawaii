@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    padding-left: 3px;
+}
+
+
+nav {
+    width: 100%;
+
+}
+
+nav ul {
+    width: 60%;
+    float: right;
+    clear: both;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li:nth-child(5) {
+    border: 1px solid #ED5561;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-right: 15px !important;
+}
+
+nav ul li:nth-child(6) {
+    border: 1px solid #ED5561;
+    padding: 10px 35px;
+    border-radius: 15px;
+}
+
+
+nav ul li a {
+    font: normal 400 1em Source Code Pro, courier, monospace;
+    color: #ED5561;
+    text-decoration: none;
+}
+
+.masthead {
+    background: #FEE6EE;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+
+.masthead-content {
+    margin-top: 25%;
+    padding: 5%;
+}
+
+.masthead-content h1 {
+    font: normal 900 10em montserrat, sans-serif;
+    color: #F5618B;
+    -webkit-text-stroke: 2px #7AD3DB;
+    text-shadow:
+        -7px -1px 0 #7AD3DB,
+        -1px -1px 0 #7AD3DB,
+        1px -1px 0 #7AD3DB,
+        -1px 1px 0 #7AD3DB,
+        1px 1px 0 #7AD3DB;
+    text-align: right;
+    line-height: 0.9em;
+}
+
+.masthead-content p:first-of-type {
+    font: normal 700 3em montserrat, sans-serif;
+    text-align: right;
+    color: #4C4D72;
+}
+
+.masthead-content p:last-of-type {
+    font: normal 400 1.55em Source Code Pro, courier, monospace;
+    text-align: right;
+    color: #4C4D72;
+}
+
+.features {
+    background: #FD9FB6;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    border: 1px solid #4C4D72;
+}
+
+
+
+.features h2 {
+    font: normal 900 2em "azo-sans-web", sans-serif;
+    color: #FEF7DA;
+    display: block;
+    width: 15%;
+    margin: 0 0 1% 0;
+}
+
+
+.features .content h4 {
+    font: normal 600 1.2em "azo-sans-web", sans-serif;
+    line-height: 3em;
+    color: #FEF7DA;
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+    margin-top: 25px;
+}
+
+
+.features p {
+    font: normal 400 0.9em Source Code Pro, courier, monospace;
+    color: #9C1A3D;
+    line-height: 1.8em;
+    display: block;
+    width: 100%;
+}
+
+.features .content {
+    width: 50%;
+}
+
+
+.features .imagery {}
+
+
+.contact {
+    background: #FEF4EE;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+.contact h2 {
+    font: normal 900 2em "azo-sans-web", sans-serif;
+    color: #4C4D72;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.contact form {
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contact form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    font: normal 400 0.9em Source Code Pro, courier, monospace;
+    color: #4C4D72;
+}
+
+.contact form input[type='text'] {}
+
+
+.contact form input[type='email'] {}
+
+.contact form textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    font: normal 400 0.9em Source Code Pro, courier, monospace;
+    color: #4C4D72;
+}
+
+
+.contact form textarea::placeholder {
+    padding: 10px 0 0 5px;
+    font: normal 400 0.9em Source Code Pro, courier, monospace;
+
+}
+
+.contact form input[type='submit'] {
+    color: #FEF7DA;
+    font: normal 900 1.4em "azo-sans-web", sans-serif;
+    text-transform: uppercase;
+    background: #7AD3DB;
+    width: 100%;
+    height: 70px;
+    border-radius: 15px;
+    border: 3px solid rgba(18, 15, 114, 0.2);
+    cursor: pointer;
+}
+
+footer {
+    background: #7AD3DB;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+}
+
+footer ul {
+    width: 15%;
+    height: auto;
+    padding: .8%;
+    margin: 0 auto 15px auto;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 50px;
+}
+
+footer ul li a {
+    color: #FEF7DA;
+    font-size: 3em;
+}
+
+
+footer p {
+    text-align: center;
+    font: normal 400 0.9em Source Code Pro, courier, monospace;
+    color: #FEF7DA;
+}
+
+footer p a {
+    color: #ED5561;
+    font-weight: 900;
+}

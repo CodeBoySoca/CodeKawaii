@@ -1,6 +1,51 @@
 {% extends 'base.j2' %}
 {% block content %}
 <div class="container">
-    <h1>Hey</h1>
+  <div class="masthead">
+    <nav>
+      <ul>
+        <li><a href="">Features</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Generate character</a></li>
+        <li><a href="">Browse characters</a></li>
+        <li><a href="">Register</a></li>
+        <li><a href="">Log in</a></li>
+      </ul>
+    </nav>
+    <div class="masthead-content">
+        <h1>CodeKawaii</h1>
+        <p>Kawaii character generator</p>
+        <p>Download, Generate and share kawaii characters</p>
+    </div>
+   </div> 
+    <div class="features">
+        <h2>Features</h2>
+          <div class="content">
+            <h4>Create your own kawaii character</h4>
+            <p>
+              Choose the features of your character and click generate and just like that you will have
+              a unique kawaii. All the kawaii characters are in vector graphic format so they can be 
+              downloaded and used anywhere without concern of loss of quantity. 
+            </p>  
+            <h4>Repo</h4>
+            <p>
+              Assemble a character from previously created kawaiis, outfits, character types, eye color, hair
+              and more.
+            </p>
+            <h4>Browse</h4>
+            <p>Buy, sell and trade kawaii characters</p> 
+        </div>
+  </div>  
+    <div class="contact">
+        <h2>Contact</h2>
+        <form method="post">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="subject" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Message"></textarea>
+            <input type="submit" value="Send message">
+        </form>
+    </div>
+{% include 'footer.j2' %}
 </div>
 {% endblock %}
